@@ -32,6 +32,7 @@ export const getStaticProps = async () => {
   return {
     props: {
       myUser
-    }
+    },
+    revalidate: 20
   }
 }
